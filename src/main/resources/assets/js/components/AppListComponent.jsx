@@ -94,7 +94,7 @@ var AppListComponent = React.createClass({
             </th>
             <th className="text-right">
               <span onClick={this.sortCollectionBy.bind(null, "mem")} className={headerClassSet}>
-                {sortKey === "mem" ? <span className="caret"></span> : null} Memory (MB)
+                {sortKey === "mem" ? <span className="caret"></span> : null} Memory (MB) new
               </span>
             </th>
             <th className="text-right">
